@@ -1,6 +1,6 @@
 Part-1
 -> Implementation Details
-    The assembly file matrix_multiplication.s contains the RISC-V implementation for the standard matrix multiplication pseudocode. It runs the implemented function mmult for performing the matrix multiplication, if the input matrices are of valid size. Else it terminates and returns 0,0 as the size of the result matrix C.
+    The assembly file matrix_mult.s contains the RISC-V implementation for the standard matrix multiplication pseudocode. It runs the implemented function mmult for performing the matrix multiplication, if the input matrices are of valid size. Else it terminates and returns 0,0 as the size of the result matrix C.
     Caller-callee convention is strictly followed in the code, with only temporary registers x5,x6,x7,x28,x29,x30 and x31 being modified by the mmult subroutine and the return address being stored in x1.
 
 -> Test Cases
